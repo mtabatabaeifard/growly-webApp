@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/modules/responsive.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <title>signin</title>
+  </head>
+  <body>
+    <section class="signin d-flex justify-content-center container">
+      <div class="signin-top d-flex w-100">
+        <div class="baby-img"></div>
+        <div class="welcome-text-signin">
+          <h1>Hello, Welcome!</h1>
+        </div>
+      </div>
+    </section>
+    <section class="login">
+      <form action="" class="login-form d-flex flex-column">
+        <input
+          type="text"
+          name="userName"
+          id=""
+          placeholder="Phone Number or Email"
+        />
+        <input type="password" name="passWord" id="" placeholder="Password" />
+        <button class="login-btn">Sign in</button>
+      </form>
+      <div class="other-signin">
+        <h3>Or sign in with</h3>
+        <div class="other-signin-icons">
+            <a href="/dashboard">
+            <svg width="121" height="35" viewBox="0 0 121 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 4C0 1.79086 1.79086 0 4 0H31C33.2091 0 35 1.79086 35 4V31C35 33.2091 33.2091 35 31 35H4C1.79086 35 0 33.2091 0 31V4Z" fill="white"/>
+                <path d="M29.0001 17.7555C29.0001 16.8099 28.9218 16.1199 28.7523 15.4044H17.7347V19.6721H24.2018C24.0715 20.7327 23.3674 22.3299 21.8027 23.4032L21.7808 23.5461L25.2644 26.1908L25.5057 26.2144C27.7222 24.2082 29.0001 21.2566 29.0001 17.7555Z" fill="#4285F4"/>
+                <path d="M17.734 29.0001C20.9024 29.0001 23.5622 27.9778 25.505 26.2145L21.802 23.4033C20.8111 24.0805 19.4812 24.5533 17.734 24.5533C14.6309 24.5533 11.9971 22.5472 11.0583 19.7744L10.9207 19.7859L7.29841 22.5331L7.25104 22.6622C9.18072 26.4189 13.1444 29.0001 17.734 29.0001Z" fill="#34A853"/>
+                <path d="M11.0589 19.7745C10.8112 19.0589 10.6678 18.2922 10.6678 17.5C10.6678 16.7077 10.8112 15.9411 11.0459 15.2256L11.0393 15.0732L7.37167 12.2818L7.25167 12.3377C6.45636 13.8966 6 15.6472 6 17.5C6 19.3528 6.45636 21.1033 7.25167 22.6622L11.0589 19.7745Z" fill="#FBBC05"/>
+                <path d="M17.7341 10.4466C19.9376 10.4466 21.424 11.3794 22.2715 12.1589L25.5833 8.99001C23.5493 7.13723 20.9024 6 17.7341 6C13.1445 6 9.18073 8.5811 7.25104 12.3377L11.0453 15.2256C11.9972 12.4528 14.6309 10.4466 17.7341 10.4466Z" fill="#EB4335"/>
+                <path d="M43 4C43 1.79086 44.7908 0 47 0H73.9999C76.2091 0 77.9999 1.79086 77.9999 4V31C77.9999 33.2091 76.2091 35 73.9999 35H47C44.7908 35 43 33.2091 43 31V4Z" fill="url(#paint0_linear_807_622)"/>
+                <path d="M70.9516 22.1893L71.7808 16.9806H66.5936V13.6019C66.5936 12.1766 67.3169 10.7864 69.6402 10.7864H72V6.35194C72 6.35194 69.8593 6 67.8137 6C63.5398 6 60.7489 8.49524 60.7489 13.0107V16.9806H56V22.1893H60.7489V35H64C64.9936 35 66.5936 35 66.5936 35V22.1893H70.9516Z" fill="white"/>
+                <path d="M85.9999 4C85.9999 1.79086 87.7908 0 89.9999 0H117C119.209 0 121 1.79086 121 4V31C121 33.2091 119.209 35 117 35H89.9999C87.7908 35 85.9999 33.2091 85.9999 31V4Z" fill="white"/>
+                <path d="M99.2193 27C96.5619 27 94.0849 26.2227 91.9999 24.8816C93.7701 24.9968 96.8941 24.7209 98.8372 22.857C95.9141 22.7221 94.5959 20.4675 94.4239 19.5041C94.6723 19.6004 95.8568 19.716 96.5255 19.4462C93.163 18.5984 92.6472 15.6308 92.7618 14.7252C93.3923 15.1684 94.4621 15.3225 94.8824 15.284C91.7492 13.0294 92.8764 9.63793 93.4305 8.90568C95.679 12.0385 99.0488 13.7979 103.218 13.8958C103.139 13.5491 103.098 13.1882 103.098 12.8174C103.098 10.1568 105.236 8 107.874 8C109.252 8 110.494 8.5888 111.366 9.53061C112.287 9.31357 113.673 8.80549 114.35 8.36613C114.009 9.59939 112.945 10.6282 112.302 11.0095C112.308 11.0225 112.297 10.9965 112.302 11.0095C112.867 10.9236 114.396 10.6281 115 10.216C114.701 10.9089 113.574 12.0608 112.649 12.7057C112.821 20.3401 107.013 27 99.2193 27Z" fill="#47ACDF"/>
+                <defs>
+                <linearGradient id="paint0_linear_807_622" x1="60.5813" y1="-4.28139e-06" x2="60.5813" y2="34.7349" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#18ACFE"/>
+                <stop offset="1" stop-color="#0163E0"/>
+                </linearGradient>
+                </defs>
+                </svg>
+            </a>
+                
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

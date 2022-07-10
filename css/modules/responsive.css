@@ -1,0 +1,59 @@
+
+@media screen and (min-width: 992px) {
+  .get-started {
+    margin: 0 auto;
+    height: 40rem;
+    width: 40%;
+  }
+  .intro-desc p {
+    width: 40%;
+  }
+  .getstarted-btn{
+    margin-top: 20rem;
+    }
+    .signin-top,.login{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .login{
+        flex-direction: column;
+    }
+    .other-login{
+        margin-left: 0;
+        text-align: right;
+        justify-self: flex-start;
+        align-self: flex-start;
+    }
+    .welcome-text-signin{
+        margin-top:0;
+    }
+    
+
+}
+@media screen and (max-width: 992px) {
+  .get-started {
+    margin: 0 auto;
+    height: 40rem;
+    width: 60%;
+  }
+  .intro-desc p {
+    width: 60%;
+  }
+
+  .getstarted-btn{
+    margin-top: 15rem;
+    }
+}
+@media screen and (max-width: 375px) {
+  .get-started {
+    margin: 0 auto;
+    height: 50rem;
+    width: 100%;
+  }
+
+  .getstarted-btn{
+    margin-top: 0rem;
+    }
+}

@@ -1,0 +1,28 @@
+/* css reset */
+:root{
+    --white-color:#fafafa;
+    --black-color:var(#212121);
+    --primary-color:#fc7938;
+    --gray-1:#333;
+    --gray-2:#4f4f4f;
+    --font-size:1.6rem;
+    --font-family:"Roboto", Arial, sans-serif;
+  
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    /* 16px -> 10px  */
+  }
+  
+  body {
+    background-color: var(--white-color);
+    color: var(--black-color);
+    font-family:var(--font-family) ;
+    font-size: var(--font-size);
+  }

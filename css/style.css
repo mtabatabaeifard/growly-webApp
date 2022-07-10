@@ -1,0 +1,46 @@
+@import url(./modules/resets.css);
+@import url(./modules/utils.css);
+@import url(./modules/components.css);
+
+.intro-desc p {
+  width: 70%;
+}
+.get-started {
+  background-image: url(../images/getStartedBG.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 40rem;
+  width: 100%;
+  margin-top: -3rem;
+  align-items: center;
+}
+
+.baby-img{
+    background-image: url(../images/signinBaby.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 27.6rem;
+    width: 26.1rem;
+    order: 1;
+}
+.welcome-text-signin{
+    margin-top:35%;
+    color: #3EB09B;
+    width: 14.3rem;
+    align-items: center;
+}
+.login-form input{
+    border: none;
+    border-bottom: .1rem solid #9A9A9A;
+    margin-left:1.6rem;
+    width:30.4rem;
+    margin: 2.4rem;
+}
+.login-form input::placeholder{
+    color: #3EB09B;
+    margin:1rem;
+}
+.other-signin{
+    color: #7C7C7C;
+    margin-left:1.6rem;
+}

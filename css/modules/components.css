@@ -1,0 +1,26 @@
+/* components */
+.getstarted-btn {
+  align-items: center;
+  margin-top: 15rem;
+  background-color: #89d2c4;
+  border-radius: 3rem;
+  color: var(--white-color);
+  padding: 1.2rem 7rem;
+  text-decoration: none;
+}
+.getstarted-btn:hover {
+  cursor: pointer;
+}
+.login-btn {
+    border: none;
+  background: #00866a;
+  box-shadow: 0px 4px 8px rgba(0, 134, 106, 0.18),
+    0px 2px 4px rgba(0, 134, 106, 0.18);
+  border-radius: 3rem;
+  text-decoration: none;
+  padding: 1.2rem 3.2rem;
+  width:15.4rem;
+  height:4.8rem;
+  margin-left: 1.8rem;
+  color: var(--white-color);
+}
