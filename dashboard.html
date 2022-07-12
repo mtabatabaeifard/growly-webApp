@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/modules/responsive.css" />
     <link
@@ -18,8 +18,83 @@
       crossorigin="anonymous"
     ></script>
     <title>Dashboard</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <section class="dashboard-head d-flex mt-5 container">
+      <div class="dashboard-head-right mx-4">
+        <p class="fs-5">good morning,</p>
+        <h2 class="fs-1">Annette</h2>
+      </div>
+      <div
+        class="dashboard-head-profile d-flex justify-content-end flex-grow-1"
+      >
+        <img src="./images/profile.svg" alt="" />
+      </div>
+    </section>
+    <section
+      class="dashboard-cards d-flex justify-content-center gap-3 mt-4 container"
+    >
+      <div class="card fw-400" style="width: 16rem; height: 15.1rem">
+        <img src="./images/daystogo.svg" class="card-img-top" alt="..." />
+        <div class="card-head fs-14">
+          <h3>192</h3>
+          <p>Days to go!</p>
+        </div>
+        <div class="card-body">
+          <p class="card-text fs-12">
+            Due date <span class="card-green-text">27 Jan </span>2022
+          </p>
+        </div>
+      </div>
+      <div class="card fw-400" style="width: 19.3rem; height: 15.1rem">
+        <img src="./images/kumquat size.svg" class="card-img-top" alt="..." />
+        <div class="card-head fs-14">
+          <h3>kumquat size</h3>
+        </div>
+        <div class="card-body">
+          <p class="card-text fs-12 text-center">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.11905 11.5911V12.0911H9.61905H11.4375L8.00675 15.4815L4.57599 12.0911H6.38094H6.88094V11.5911V4.39111V3.89111H6.38094H4.58049L7.9955 0.516291L11.4105 3.89111H9.61905H9.11905V4.39111V11.5911ZM11.5073 3.98675C11.5073 3.98673 11.5072 3.9867 11.5072 3.98668L11.5073 3.98675Z"
+                stroke="#282828"
+              />
+            </svg>
+            2.7cm
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13.8676 5.30608V5.34647L13.8741 5.38633L15.4982 15.374C15.4857 15.4453 15.4237 15.5 15.347 15.5H0.65282C0.576793 15.5 0.514698 15.4457 0.502268 15.3741L2.12621 5.38632L2.13269 5.34646V5.30608C2.13269 5.22117 2.20156 5.15278 2.28551 5.15278H4.46237H4.89728H4.96237H5.39728H10.6021H11.0375H11.1021H11.5375H13.7143C13.7988 5.15278 13.8676 5.22165 13.8676 5.30608ZM6.59844 0.50691C5.82099 0.50691 5.16553 1.02815 4.96237 1.7403V1.63285C4.96237 1.00704 5.46942 0.5 6.09522 0.5H9.90462C10.53 0.5 11.0375 1.00714 11.0375 1.63285V1.74191C10.8349 1.02895 10.1792 0.50691 9.40076 0.50691H6.59844Z"
+                stroke="#282828"
+              />
+            </svg>
+            3.9g
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="trimester d-flex justify-content-center">
+
+      <div class="card text-white mb-3" style="max-width: 35rem">
+        <div class="card-header fw-500 fs-12">Your baby at Week 10</div>
+        <div class="btcard-body text-dark">
+          <h5 class="card-title mx-2">Trimester 1</h5>
+        </div>
+        <p class="card-text text-dark mx-2">
+          This week your baby has finished the most critical part
+          of development! Organs and structures are in place and ready to grow.
+        </p>
+      </div>
+    </section>
+  </body>
 </html>

@@ -44,3 +44,13 @@
     color: #7C7C7C;
     margin-left:1.6rem;
 }
+.trimester{
+    margin-top:8rem;
+}
+
+.card-header{
+    background-image: url(../images/Your\ baby\ at\ Week\ 10.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--white-color);
+}

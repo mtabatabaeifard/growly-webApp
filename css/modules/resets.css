@@ -1,6 +1,6 @@
 /* css reset */
 :root{
-    --white-color:#fafafa;
+    --white-color:#F2F6FC;
     --black-color:var(#212121);
     --primary-color:#fc7938;
     --gray-1:#333;
@@ -21,7 +21,7 @@
   }
   
   body {
-    background-color: var(--white-color);
+    background-color: var(--white-color)!important;
     color: var(--black-color);
     font-family:var(--font-family) ;
     font-size: var(--font-size);
