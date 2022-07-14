@@ -47,10 +47,33 @@
 .trimester{
     margin-top:8rem;
 }
-
+.trimester-card{
+    max-width: 35rem;
+}
 .card-header{
     background-image: url(../images/Your\ baby\ at\ Week\ 10.png);
     background-size: cover;
     background-repeat: no-repeat;
     color: var(--white-color);
+}
+.dashboard-how-you{
+    width: 93%;
+    
+}
+.symptom-morning{
+    background-color: #89D2C4;
+    border-radius: 3rem;
+    color: var(--white-color);
+    /* width: 18.3rem; */
+    padding:0 2rem;
+
+}
+.kick-counter-banner{
+    background-color:#EE6093;
+    color: var(--white-color);
+}
+.contraction-timer-banner{
+    background-color:#1AB0B0;
+    color: var(--white-color);
+
 }

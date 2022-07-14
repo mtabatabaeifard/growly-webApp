@@ -1,6 +1,6 @@
 /* utils */
 .fw-400{
-    font-weight:500;
+    font-weight:400;
 }
 .fw-500{
     font-weight:500;
@@ -8,12 +8,24 @@
 .fw-600{
     font-weight:600;
 }
+.fs-16{
+    font-size: 1.6rem;
+}
 .fs-14{
     font-size: 1.4rem;
 }
 .fs-12{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+}
+.fs-10{
+    font-size: 1rem;
 }
 .card-green-text{
     color: #00866A;
+}
+.gap-10{
+    gap: 10rem;
+}
+.ml-5{
+    margin-left: 8rem;
 }

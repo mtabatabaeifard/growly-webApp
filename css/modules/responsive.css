@@ -29,7 +29,9 @@
     .welcome-text-signin{
         margin-top:0;
     }
-    
+    .trimester-card{
+      max-width: 100%;
+    }
 
 }
 @media screen and (max-width: 992px) {
