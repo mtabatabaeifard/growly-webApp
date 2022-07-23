@@ -48,13 +48,29 @@
     margin-top: 15rem;
     }
 }
+@media screen and (min-width:375px) {
+  .pfp-card-btn{
+    width: 50%;
+  
+  }
+  .pfp-card-btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #annoyingbar{
+    width: 100% !important;
+  }
+}
 @media screen and (max-width: 375px) {
   .get-started {
     margin: 0 auto;
     height: 50rem;
     width: 100%;
   }
-
+  #annoyingbar{
+    width: 100% !important;
+  }
   .getstarted-btn{
     margin-top: 0rem;
     }

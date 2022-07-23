@@ -7,7 +7,9 @@
     --gray-2:#4f4f4f;
     --font-size:1.6rem;
     --font-family:"Roboto", Arial, sans-serif;
-  
+    --green-100:#00866A;
+    --green-80:#3EB09B;
+    --green-60:#89D2C4;
   }
 * {
     margin: 0;
@@ -19,10 +21,15 @@
     font-size: 62.5%;
     /* 16px -> 10px  */
   }
-  
+  input:focus, textarea:focus, select:focus{
+    outline: none;
+  }
   body {
     background-color: var(--white-color)!important;
     color: var(--black-color);
     font-family:var(--font-family) ;
     font-size: var(--font-size);
+  }
+  main{
+    background-color: #fff;
   }

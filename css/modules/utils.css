@@ -8,6 +8,9 @@
 .fw-600{
     font-weight:600;
 }
+.fs-36{
+    font-size: 3.6rem;
+}
 .fs-16{
     font-size: 1.6rem;
 }
@@ -19,6 +22,9 @@
 }
 .fs-10{
     font-size: 1rem;
+}
+.ff-noto{
+    font-family: 'Noto Sans';
 }
 .card-green-text{
     color: #00866A;
